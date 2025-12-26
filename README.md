@@ -1,55 +1,92 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+# Smart Ambulance Dispatch and ER Capacity Management System
+
+The Smart Ambulance Dispatch and ER Capacity Management System is a web-based application designed to improve emergency medical response by intelligently dispatching ambulances, optimizing routes, and selecting suitable hospitals based on real-time ER availability.
+
+---
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+
+The Smart Ambulance Dispatch and ER Capacity Management System enhances coordination between emergency services, ambulances, and hospitals. Traditional emergency response systems often suffer from delayed dispatch, inefficient routing, and lack of real-time visibility into hospital capacity. This project addresses these challenges by providing a centralized platform that processes emergency requests and dynamically assigns ambulances and hospitals.
+
+The system evaluates ambulance proximity, traffic conditions, and hospital ER capacity to recommend the most efficient response. By automating decision-making and providing real-time monitoring, the platform reduces response times, prevents emergency room overcrowding, and improves patient outcomes.
+
+---
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+- Intelligent ambulance dispatch and allocation  
+- Real-time ambulance tracking  
+- Traffic-aware route optimization  
+- Hospital ER capacity monitoring (Green / Yellow / Red)  
+- Centralized dashboard for emergency monitoring  
+- Scalable and real-time architecture  
+- Secure and reliable data handling  
+
+---
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
+- **Operating System:** Windows 10 / Ubuntu (64-bit)  
+- **Backend:** Node.js, Express.js  
+- **Frontend:** React.js
+- **Visualization:** Leaflet
+- **Database:** MongoDB   
+- **IDE:** Visual Studio Code  
+- **Version Control:** Git  
+
+---
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="709" height="424" alt="image" src="https://github.com/user-attachments/assets/929fe521-c2b2-404c-b05e-223ec80c2265" />
 
+
+---
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+### Login Page
+<img width="1400" height="440" alt="image" src="https://github.com/user-attachments/assets/49fce71d-3ae6-40ff-b9c8-061a4b30bbaf" />
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+## Admin Dashboard
+<img width="870" height="454" alt="image" src="https://github.com/user-attachments/assets/97574a94-fb57-44f8-a684-3dd4b55d713a" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+## Hospital Onboard Page
+<img width="870" height="514" alt="image" src="https://github.com/user-attachments/assets/1dfe0136-71ab-4d63-9410-2e6472af553c" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+## Staff Access Management
+<img width="869" height="501" alt="image" src="https://github.com/user-attachments/assets/f92271aa-5b6c-4a5e-b20f-b6fc2ca98595" />
 
+## Status Updation Page
+<img width="870" height="374" alt="image" src="https://github.com/user-attachments/assets/8258df00-5a7f-4c11-a4a9-1e35a998e9c3" />
+
+## Dispatcher Search Image
+<img width="869" height="457" alt="image" src="https://github.com/user-attachments/assets/a7880d06-c0f3-4fea-8b32-7b0f2b166608" />
+
+**Performance Improvement:**  
+- Reduced ambulance response time  
+- Improved hospital resource utilization  
+
+---
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Smart Ambulance Dispatch and ER Capacity Management System improves emergency response efficiency by minimizing delays and optimizing resource utilization. It enhances coordination between emergency responders and hospitals, reducing overcrowding and improving patient care.
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+This project demonstrates the effective use of real-time data processing and intelligent routing for emergency healthcare and provides a foundation for future smart city emergency systems.
+
+---
+
+## References
+
+[1]D. S. Belsare and S. D. Lokhande, “Ambulance Management with Real-Time Hospital Data and Traffic Updates,” International Journal of Computer Applications, vol. 182, no. 35, pp. 25–29, 2021..
+
+[2]S. Ghosh, A. Ghosh, and R. Dutta, “Smart Ambulance Dispatch System Using IoT and Cloud Integration,” IEEE Access, vol. 9, pp. 12345–12354, 2021.
+
+[3]A. Patel and R. Shah, “An Intelligent Traffic Management System for Emergency Vehicle Routing,” International Research Journal of Engineering and Technology (IRJET), vol. 8, no. 5, pp. 1020–1026, 2021.
+
+[4]R. K. Verma and M. Tiwari, “AI-Based Emergency Response System for Urban Areas,” International Journal of Advanced Research in Computer and Communication Engineering, vol. 9, no. 12, pp. 180–186, 2020.
+
+[5]K. S. Raj and P. Kumar, “Design and Implementation of IoT-Based Real-Time Ambulance Monitoring System,” International Journal of Engineering and Technology, vol. 7, no. 3, pp. 150–154, 2020.
+
+---
